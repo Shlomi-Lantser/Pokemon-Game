@@ -9,13 +9,9 @@ The given task was to build a runnable Pokemon game with a given sever that cont
 
 My task was to assign each agent to the given pokemons and to catch 'em all while using graph implementation project.
 
-## The Algorithem:
+## The Algorithm:
 I assigned pokemons to each agent depending on the distance between them and by using TSP and Djikstra Shortest Path algorithms.
 this was used with threads- each thread to each agentץ
-
-## How to run:
-* open cmd in the main file(Ex4-OPP) and run this command: `java -jar Ex4_Server_v0.0.jar 11` (or any case between 0-15)
-* open cmd in the src file inside the main file(Ex4-OPP\src) and run this command: `python student_code.py`
 
 # Directed weighted graph implemantation python.
  
@@ -67,6 +63,9 @@ The main veriables which I use in this class are:
 |load_from_json| this function loads the json file to my project|O(V+E)|
 |
 
+## How to run:
+* open cmd in the main file(Ex4-OPP) and run this command: `java -jar Ex4_Server_v0.0.jar 11` (or any case between 0-15)
+* open cmd in the src file inside the main file(Ex4-OPP\src) and run this command: `python student_code.py`
 
 # Running video :
 
